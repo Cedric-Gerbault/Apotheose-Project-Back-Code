@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello UserController!{% endblock %}
+
+{% block body %}
+    {{ form_start(form) }}
+    {{ form_rest(form) }}
+    <button type="submit">Enregistrer</button>
+    {{ form_end(form) }}
+{% endblock %}
